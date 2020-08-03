@@ -1,0 +1,26 @@
+# Debugging
+
+## VSCode
+
+You can use the "Run" command and configure the right file
+
+## PDB
+
+### General
+
+Launch the command `python -m pdb file.py`
+Use `next` to step up the debugger, from line 1 to line x
+
+### Specific place
+
+Put `pdb.set_trace()` to put breakpoint
+Launch the command `python file.py`
+
+### Result
+
+```shell
+> /home/david/debug/file.py(7)<module>()
+-> comment = 'PDB end file'
+(Pdb) print(comment)
+PDB breakpoint
+```
