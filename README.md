@@ -37,6 +37,12 @@ Like this `launch.json`
 
 ## PDB
 
+### Help
+
+```
+(Pdb) help
+```
+
 ### General
 
 Launch the command `python -m pdb file.py`
