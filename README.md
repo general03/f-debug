@@ -47,6 +47,10 @@ Use `next` to step up the debugger, from line 1 to line x
 Put `pdb.set_trace()` to put breakpoint
 Launch the command `python file.py`
 
+### Call function
+
+Inside pdb shell put `pdb.runcall(add, 2)`
+
 ### Result
 
 ```shell
